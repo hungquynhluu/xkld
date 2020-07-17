@@ -53,6 +53,27 @@
 	font-size: 20px;
 	text-transform: uppercase;
 }
+.header-main .nav-header a:hover{
+	color: #00b894;
+}
+.header-main .nav-header li:hover{
+	background: #2980b9;
+}
+.header-main .nav-header button{
+	border: 1px solid #333;
+}
+@media screen and (max-width: 991px) {
+	.header-main .nav-header {
+    justify-content: flex-end;
+}
+	.header-main .nav-header nav{
+		width: 100%;
+	}
+	.header-main .nav-header nav ul li{
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+	}
+}
 .main{
 	margin-top: 50px;
 }
@@ -342,10 +363,4 @@ button.ghost{
 }
 .container.right-panel-active .overlay-right{
 	transform: translateX(20%);
-}
-.header-main .nav-header a:hover{
-	color: yellow;
-}
-.header-main .nav-header li:hover{
-	background-color:blueviolet;
 }
